@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Launch</title>
+	<meta charset="utf-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+	 <script src="https://kit.fontawesome.com/0038dd4693.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdn.anychart.com/releases/8.11.0/js/anychart-base.min.js"></script>   
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <style>
+  .form-container input[type=text]{
+  width: 100%;
+  padding: 15px;
+  border:0px;
+  border-bottom: 1px solid black;
+}
+.form-container input[type=text]:hover{
+	border: 0px;
+     border-bottom: 1px solid #4CBB17;
+}
+	nav li::after {
+  background-color: #4CBB17;
+  content: "";
+  width: ;
+  height: 3px;
+  left: 0;
+  right: 5;
+  bottom: 0;
+  transition: width 0.35s ease 0s;
+  position: absolute;
+}
+nav li:hover::after {
+  width: 100%;
+}
+ nav li{
+	overflow: hidden;
+	position: relative;
+	font-weight: bold;
+}
+@media screen and (max-width: 450px)
+		{
+			nav li{
+		font-size: 12px;
+	}
+	label{
+		font-size: 12px;
+		}
+		input[type=text]{
+			font-size: 13px;
+		}
+		i{
+			font-size: 12px;
+		}
+		h4{
+			font-size: 14px;
+		}
+		p{
+font-size: 12px;
+		}
+		h6{
+			font-size: 12px;
+		}
+		button{
+			 font-size: 12px;
+		}
+	}
+   </style>
+</head>
+<body>
+	<div  class="container-fluid text-center" id="one">
+	<nav class="navbar navbar-expand-sm w-100 navbar-light">
+		<div class="navbar-brand justify-content-center" style="width: 30%;"> 
+		<a href="#"><img src="logo.png" width="100%"></a>
+		</div>
+		<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#collapsenavbar" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="navbar-collapse text-center collapse" id="collapsenavbar" style="width: 100%">
+		<ul class="navbar-nav justify-content-center " id="three">
+			<li class="navbar-item mx-1 p-2">
+					<a href="#home.html" class="navbar-link text-dark text-decoration-none">Home</a></li>
+				<li class="navbar-item mx-1 p-2">
+					<a href="#index.html" class="navbar-link text-dark text-decoration-none">About</a></li>
+				<li class="navbar-item mx-1 p-2">
+                    <a href="#why" class="navbar-link text-dark text-decoration-none">YourWorld3</a></li>
+				<li class="navbar-item mx-1 p-2 ">
+				    <a href="#Tokenomics" class="navbar-link text-dark text-decoration-none">ICO</a></li>
+				<li class="navbar-item mx-1 p-2 ">
+					<a href="#Roadmap" class="navbar-link text-dark text-decoration-none">Green Swap</a></li>
+				<li class="navbar-item mx-1 p-2">
+					<a href="#Team" class="navbar-link text-dark text-decoration-none">NFt's</a></li>
+			    <li class="navbar-item mx-1 p-2">
+					<a href="#signup" class="navbar-link text-dark text-decoration-none ">Karbun</a>
+				</li>
+				<li class="navbar-item mx-1 p-2 ">
+					<a href="#Roadmap" class="navbar-link  text-dark text-decoration-none">Sovergin Coins</a>
+				</li>
+				<li class="navbar-item mx-1 p-2 ">
+					<a href="#Roadmap" class="navbar-link  text-dark text-decoration-none">Contact Us</a>
+				</li>
+			</ul>
+			<ul class=" nav navbar-nav"id="hey">
+				<button class="btn text-light shadow-lg mx-lg-5 p-1 px-3" style="background-color:#4CBB17; border-radius: 10px;">Login
+				</button>
+		</ul>
+		</div>
+	</nav>
+</div>
+<button type="button" data-toggle="modal" data-target="#myModal">ICO</button>
+	<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content" style="border-color: white;border-width: 3px;" id="myForm">
+    	<div class="container">
+      <div class="modal-header">
+        <h4 class="modal-title text-center font-weight-bold">Complete your ICO Launch Form</h4>
+      </div>
+      <div class="modal-body">
+       <p class="text-center font-weight-bold">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+       <form class="form-container mt-3">
+       <label style="color: #4CBB17">Website Name</label>
+       		<input type="text" name="" placeholder="YourWorld3">
+       		<label style="color: #4CBB17">Purpose of Website development</label>
+       		<input type="text" name="" placeholder="Describe your purpose here">
+       		<label style="color: #4CBB17">Website Content</label>
+       		<input type="text" name="" placeholder="Write your website content here"></input>
+        </form>
+        <div class="row mt-3">
+        	<div class="col-md-6">
+        <h6 style="color: #4CBB17">Whitepaper</h6>
+        <button style="border:2px dashed;border-radius: 8px;padding: 10px; font-weight: bold;border-color: #4CBB17; background-color: #e5f4da; width: 100%;">Drop your file here Or <span style="color: #4CBB17">Select file</span>
+       	<p style="color: #dadada;font-weight: normal;">Only <span style="color: black; font-weight: bold;">.PDF</span> and <span style="color: black; font-weight: bold;">.DOC</span> files are allowed</p></button>
+       </div>
+       <div class="col-md-6">
+       	<h6 style="color: #4CBB17">Logo(if available)</h6>
+        <button style="border:2px dashed;border-radius: 8px;padding: 10px; font-weight: bold;border-color: #4CBB17; background-color: #e5f4da; width: 100%;">Drop your file here Or <span style="color: #4CBB17">Select file</span>
+       	<p style="color: #dadada;font-weight: normal;">Only <span style="color: black; font-weight: bold;">.PDF</span> and <span style="color: black; font-weight: bold;">.DOC</span> files are allowed</p></button>
+       </div>
+   </div>
+   <button class="mt-3 p-2 px-4" onclick="submit" type="submit" style="background-color: #4CBB17; color: white;border-radius: 5px;">Submit</button>
+       		<button class="mt-3 p-2 px-4" onclick="closeForm()" style="border-color: #4CBB17;border-radius: 5px;background-color: white">Cancel</button>
+       		</form>
+      </div>
+  </div>
+</div>
+</div>
+<script type="text/javascript">
+	function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+</body>
+</html>
